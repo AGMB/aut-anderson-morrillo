@@ -6,7 +6,7 @@ class KarateBasicTest {
     }
     @Karate.Test
     Karate testBasic() {
-        return Karate.run("classpath:karate-test.feature@Delete");
+        return Karate.run("classpath:karate-test.feature");
     }
 
 }
